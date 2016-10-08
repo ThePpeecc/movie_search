@@ -130,6 +130,7 @@ button {
 }
 
 .poster-wrap {
+  cursor: pointer;
   background-color: #fff;
   margin-bottom: .8em;
   position: relative;
@@ -152,12 +153,79 @@ button {
   display: none;
   width: 100%;
   height: 100%;
-  background-color: black;
+  background: linear-gradient(to bottom, #4C4C4C 0%,#4C4C4C 35%,#fff 35%,#fff 100%);
   position: fixed;
   z-index: 10;
   float: left;
   left: 0px;
   margin-top: -40px;
+}
+
+.movie-description div {
+  float: left;
+}
+
+.description-img {
+  min-width: 370px;
+  height: 100%;
+  width: 30%;
+}
+
+.description-img input {
+  cursor: pointer;
+  margin-left: 10%;
+  margin-top: 10%;
+  color: #B4B4B4;
+  border-bottom: 0px;
+}
+
+.description-img img {
+  display: block;
+  margin: 0% 10%;
+  border: 10px solid #F6F7F7;
+}
+
+.description {
+  height: 100%;
+  width: 50%;
+}
+
+.description div {
+  width: 100%;
+}
+
+.description-top {
+  position: relative;
+  height: 35%;
+}
+
+.description-top h1,
+.description-top p {
+  position: absolute;
+
+}
+
+.description-top h1 {
+  color: white;
+  bottom: 25px;
+}
+
+.description-top p {
+  color: #B4B4B4;
+  bottom: 15px;
+}
+
+.description-bottom {
+  height: 65%;
+
+}
+
+.description-bottom a {
+  background-color: #35CEAB;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 30px;
 }
 
 /* =================================
